@@ -1,0 +1,65 @@
+@use 'vars' as v;
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: v.$defaultFont;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+p {
+  color: v.$black;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: v.$defaultFont;
+  margin: calc(v.$separation / 2) 0;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}

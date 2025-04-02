@@ -1,0 +1,38 @@
+{
+  "name": "gestion_tareas",
+  "version": "1.0.0",
+  "description": "Gestor de tareas en PHP",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niimaisan/gestor_tareas.git"
+  },
+  "keywords": [
+    "task",
+    "php",
+    "scss",
+    "gulp",
+    "js",
+    "mariadb"
+  ],
+  "author": "Aaron D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niimaisan/gestor_tareas/issues"
+  },
+  "homepage": "https://github.com/niimaisan/gestor_tareas#readme",
+  "devDependencies": {
+    "glob": "^11.0.1",
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^6.0.1",
+    "gulp-sharp-optimize-images": "^4.0.3",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "sass": "^1.86.1",
+    "terser": "^5.39.0"
+  }
+}

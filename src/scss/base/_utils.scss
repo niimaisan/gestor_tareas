@@ -1,0 +1,11 @@
+@use 'vars' as v;
+
+.container {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: v.$bold;
+}
