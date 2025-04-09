@@ -2,21 +2,21 @@
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0
 }
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: v.$defaultFont;
   font-size: 1.6rem;
   line-height: 1.8;
+  background-color: v.$grey;
 }
 
 p {

@@ -4,7 +4,10 @@
   "description": "Gestor de tareas en PHP",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "css": "gulp css",
+    "js": "gulp js",
+    "img": "gulp img"
   },
   "repository": {
     "type": "git",

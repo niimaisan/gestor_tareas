@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  background-color: #e1e1e1;
+}
+
+p {
+  color: #000000;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  margin: 2.5rem 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+.container {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border: 0.1rem solid #000000;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem #333333;
+}
+#login-form i {
+  font-size: 4rem;
+  color: #E08709;
+  text-shadow: 0.2rem 0.2rem 0.5rem #333333;
+  margin-bottom: 2rem;
+}
+#login-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0;
+  outline: 0;
+  border-bottom: 0.1rem solid #000000;
+  margin-bottom: 2rem;
+}
+#login-form button {
+  width: 10rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem #333333;
+  transition: background-color 0.3s ease-in-out;
+}
+#login-form button:hover {
+  background-color: #71B100;
+}
+/*# sourceMappingURL=app.css.map */
